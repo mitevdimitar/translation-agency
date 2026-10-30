@@ -1,4 +1,5 @@
 import Hero from "./components/hero";
+import MarketCoverage from "./components/market-coverage";
 import ValueProposition from "./components/value-proposition";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="flex-1">
       <Hero />
       <ValueProposition />
+      <MarketCoverage />
     </main>
   );
 }
