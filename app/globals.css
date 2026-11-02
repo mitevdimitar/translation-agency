@@ -19,6 +19,8 @@
 
 :root {
   --color-card: #EDF2F7;
+  /* Place anchor IDs on headings so section padding doesn't add to the offset. */
+  scroll-padding-top: 2rem;
 }
 
 /* Put section backgrounds on the outer element and site-container on its child.

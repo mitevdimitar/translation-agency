@@ -9,9 +9,8 @@ const markets = [
 export default function MarketCoverage() {
   return (
     <section
-      id="markets"
-      aria-labelledby="market-coverage-heading"
-      className="scroll-mt-24 bg-market-background py-20 text-primary-text sm:py-24 lg:py-32"
+      aria-labelledby="markets"
+      className="bg-market-background py-20 text-primary-text sm:py-24 lg:py-32"
     >
       <div className="site-container">
         <p className="flex items-center gap-3 text-xs font-semibold tracking-[0.16em] sm:text-sm">
@@ -20,7 +19,7 @@ export default function MarketCoverage() {
         </p>
         <div className="mt-5 grid gap-6 lg:grid-cols-[1.2fr_1fr] lg:items-end lg:gap-16">
           <h2
-            id="market-coverage-heading"
+            id="markets"
             className="max-w-xl text-4xl font-semibold leading-tight tracking-[-0.035em] sm:text-5xl lg:text-6xl"
           >
             One region. Many local voices.

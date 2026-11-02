@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MobileNavigation from "./mobile-navigation";
+import SmartHeader from "./smart-header";
 
 const links = [
   { label: "Services", href: "#services" },
@@ -45,7 +46,7 @@ function Navigation({ mobile = false }: { mobile?: boolean }) {
 
 export default function Header() {
   return (
-    <header className="shrink-0 border-b border-primary-text/10 bg-page text-primary-text">
+    <SmartHeader>
       <div className="site-container">
         <div className="flex flex-wrap items-center justify-between gap-x-6">
           <Link
@@ -62,6 +63,6 @@ export default function Header() {
           </MobileNavigation>
         </div>
       </div>
-    </header>
+    </SmartHeader>
   );
 }
