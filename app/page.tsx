@@ -1,5 +1,6 @@
 import Hero from "./components/hero";
 import MarketCoverage from "./components/market-coverage";
+import Services from "./components/services";
 import ValueProposition from "./components/value-proposition";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <ValueProposition />
       <MarketCoverage />
+      <Services />
     </main>
   );
 }
