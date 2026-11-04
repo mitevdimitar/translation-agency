@@ -1,4 +1,5 @@
 import Hero from "./components/hero";
+import Industries from "./components/industries";
 import MarketCoverage from "./components/market-coverage";
 import Services from "./components/services";
 import TechnologyAdvantage from "./components/technology-advantage";
@@ -12,6 +13,7 @@ export default function Home() {
       <MarketCoverage />
       <Services />
       <TechnologyAdvantage />
+      <Industries />
     </main>
   );
 }
