@@ -1,4 +1,5 @@
 import AboutUs from "./components/about-us";
+import FinalCta from "./components/final-cta";
 import Hero from "./components/hero";
 import HowWeWork from "./components/how-we-work";
 import Industries from "./components/industries";
@@ -18,6 +19,7 @@ export default function Home() {
       <Industries />
       <HowWeWork />
       <AboutUs />
+      <FinalCta />
     </main>
   );
 }
