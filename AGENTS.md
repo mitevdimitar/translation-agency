@@ -57,6 +57,18 @@ The agency name is undecided. Use "BRAND NAME".
 - Do not implement backend services, CMS, or working
   contact forms during Phase 1.
 
+## Tailwind Conventions
+
+- Prefer standard Tailwind utilities for spacing, sizing, positioning,
+  typography, and border radius; reuse existing brand and layout tokens.
+- Use Grid, Flexbox, alignment utilities, and fractional positioning
+  instead of manually calculated pixel offsets.
+- Allow arbitrary values only for a clear technical reason when no
+  standard utility or existing token fits. Prefer named reusable tokens
+  for repeated nonstandard values, and document necessary exceptions.
+- Preserve mathematically exact alignment; do not substitute approximate
+  spacing utilities when they would misalign elements.
+
 ## Agent Workflow
 
 - Complete one small task at a time.
