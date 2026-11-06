@@ -59,15 +59,19 @@ The agency name is undecided. Use "BRAND NAME".
 
 ## Tailwind Conventions
 
-- Prefer standard Tailwind utilities for spacing, sizing, positioning,
+- Apply these conventions to all future components.
+- Prefer standard Tailwind CSS v4 utilities over arbitrary-value classes
+  for spacing, sizing, positioning,
   typography, and border radius; reuse existing brand and layout tokens.
-- Use Grid, Flexbox, alignment utilities, and fractional positioning
+- Avoid arbitrary pixel offsets and spacing when standard utilities exist.
+- Use Grid, Flexbox, relative positioning, alignment utilities, and fractional positioning
   instead of manually calculated pixel offsets.
 - Allow arbitrary values only for a clear technical reason when no
-  standard utility or existing token fits. Prefer named reusable tokens
+  standard utility or existing token fits. Introduce named reusable tokens
   for repeated nonstandard values, and document necessary exceptions.
 - Preserve mathematically exact alignment; do not substitute approximate
   spacing utilities when they would misalign elements.
+- Reserve the project-wide arbitrary-value audit and cleanup for Task 14.
 
 ## Agent Workflow
 

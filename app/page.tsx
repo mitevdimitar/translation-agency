@@ -1,3 +1,4 @@
+import AboutUs from "./components/about-us";
 import Hero from "./components/hero";
 import HowWeWork from "./components/how-we-work";
 import Industries from "./components/industries";
@@ -16,6 +17,7 @@ export default function Home() {
       <TechnologyAdvantage />
       <Industries />
       <HowWeWork />
+      <AboutUs />
     </main>
   );
 }
